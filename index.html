@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Intro Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <button id="replay-button">↻</button>
+
+  <div id="intro">
+    <video id="intro-video" autoplay muted playsinline>
+      <source src="videos/intro.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="flex-container">
+    <div id="main-content" class="hidden">
+    <h2>Richard Xu Portfolio</h2>
+  </div>
+    <div id="animation-section">
+      <video controls src="videos/Crocopup.mp4" autoplay loop></video>
+    </div>
+    <div id="animation-section">
+      <video controls src="videos/intro.mp4" autoplay loop></video>
+    </div>
+    <div id="animation-section">
+      <video controls src="videos/CPPD.mp4" autoplay loop></video>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
